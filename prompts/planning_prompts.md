@@ -1,6 +1,6 @@
 -----
 
-### **QMTRY MxChat: Project Planning Prompt Library v1.2**
+# **QMTRY MxChat: Project Planning Prompt Library v1.2**
 
 **Purpose:**
 Equip MxChat (QMTRY’s Virtual Project Management Consultant) with structured, repeatable prompts that deliver **audit-ready, healthcare-aware** project planning guidance. This library covers project initiation, scope definition, scheduling, resource allocation, compliance checkpoints, and success measurement.

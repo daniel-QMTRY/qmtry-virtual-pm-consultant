@@ -1,8 +1,6 @@
-Of course. Here is the complete and professional prompt library, fully expanded with all sections as requested.
-
 -----
 
-### **QMTRY MxChat: Risk Management Prompt Library v1.2**
+# **QMTRY MxChat: Risk Management Prompt Library v1.2**
 
 **Purpose:** To equip MxChat (QMTRY’s Virtual Project Management Consultant) with precise, repeatable prompts that deliver **audit-ready, healthcare-aware** risk guidance across the full lifecycle: identification, assessment, mitigation, monitoring, governance, vendor risk, AI/ML risk, adoption, incident response, and regulatory alignment.
 
