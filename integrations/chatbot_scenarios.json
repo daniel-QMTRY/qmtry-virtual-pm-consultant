@@ -1,0 +1,52 @@
+[
+  {
+    "command": "/plan charter",
+    "description": "Draft an executive-grade project charter.",
+    "prompt": "Generate a comprehensive Project Charter for a healthcare IT initiative. Include: Objectives, Scope, Constraints, High-Level Risks, Success Criteria, and Stakeholder Register. Return both a polished Markdown summary (exec-facing) and a JSON object aligned to qmtry.plan.v1 for import into Jira/Smartsheet."
+  },
+  {
+    "command": "/plan wbs",
+    "description": "Work Breakdown Structure (WBS).",
+    "prompt": "Produce a 3-level Work Breakdown Structure (WBS) for an NCQA/CMS Stars program. Include Initiation, Planning, Execution, Monitoring/Control, Closing. Provide Markdown table and JSON aligned to qmtry.plan.v1."
+  },
+  {
+    "command": "/risk identify",
+    "description": "Generate an audit-ready risk register.",
+    "prompt": "Generate a risk register for a healthcare compliance project. Use categories: Requirements, Technical, Integration, Data, Security/Privacy, Compliance, Vendor, Operations, Finance. For each: ID, Title, Category, Likelihood, Impact, Score, Controls (Preventive/Detective/Corrective), Owner, Due Date. Output both Markdown table and JSON aligned to qmtry.risk.v1."
+  },
+  {
+    "command": "/risk incident",
+    "description": "Incident Response Playbook.",
+    "prompt": "Draft a SEV-1 Incident Response Playbook for confirmed PHI exposure. Include Severity Levels (SEV-1 to SEV-4), Roles/Responsibilities, Communications Plan, 24-hour Actions, Evidence Capture, and Recovery Steps. Return Markdown playbook + JSON structured runbook."
+  },
+  {
+    "command": "/perf dashboards",
+    "description": "Executive dashboard design.",
+    "prompt": "Design a one-page Executive Dashboard for C-level leadership. Include: Milestone Progress (RAG), Budget vs Actuals, Top 5 Open Risks, Compliance Readiness (%), CMS Stars/HEDIS Measure Status. Output polished Markdown mockup + JSON aligned to qmtry.perf.v1."
+  },
+  {
+    "command": "/perf stars",
+    "description": "Stars/HEDIS KPI Pack.",
+    "prompt": "Generate KPI definitions for Stars/HEDIS metrics (PDC, SUPD, CBP, Medication Adherence). For each KPI: Name, Definition, Formula, Thresholds, Owner, Evidence Required. Output as Markdown KPI Catalogue + JSON aligned to qmtry.perf.v1."
+  },
+  {
+    "command": "/collab comms",
+    "description": "Communication Matrix.",
+    "prompt": "Produce a Communication Plan Matrix for a CMS Stars Improvement initiative. Columns: Stakeholder, Purpose, Frequency, Channel, Owner, Artifacts. Insert compliance checkpoints for CMS/NCQA/HIPAA. Output Markdown table + JSON aligned to qmtry.collab.v1."
+  },
+  {
+    "command": "/collab stakeholders",
+    "description": "Stakeholder Register.",
+    "prompt": "Generate a Stakeholder Register for an EHR Integration Project. Include: Role, Influence, Interest, Expectations, Engagement Strategy. Output Markdown + JSON aligned to qmtry.collab.v1."
+  },
+  {
+    "command": "/plan hedis",
+    "description": "HEDIS Implementation Plan.",
+    "prompt": "Draft a full project plan for automating a HEDIS measure (e.g., SUPD). Include tasks for EHR integration, lab validation, measure engine development, compliance evidence collection. Provide Markdown plan + JSON aligned to qmtry.plan.v1."
+  },
+  {
+    "command": "/risk hedis",
+    "description": "Stars/HEDIS Risk Register.",
+    "prompt": "Identify risks specific to HEDIS measures (PDC, SUPD, CBP). Focus on data integrity, attribution logic, and denominator/numerator gaps. Provide preventive/detective/corrective controls. Return Markdown table + JSON aligned to qmtry.risk.v1."
+  }
+]
